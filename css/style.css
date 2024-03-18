@@ -38,24 +38,3 @@ footer {
 p{
 	font-size: 1.15em;
 }
-.flex{
-	display: flex;
-	border: 1px solid #333;
-}
-.flex div{
-    border: 1px solid #333;
-	width: 350px;
-}
-.name_title{
-	font-size: 25px;
-	font-weight:bold;
-}
-.bg_color1{
-	padding-bottom: 60px;
-	background-color: #DCF7FC;
-} 
-.product_box{
-	border: 1px solid #333;
-	padding: 5px 5px 5px 5px;
-	margin-bottom: 20px;
-}
