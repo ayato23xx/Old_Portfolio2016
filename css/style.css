@@ -5,26 +5,17 @@
 body{
 	height:100%;
 	margin:0;
-	padding-top:80px; 
+	padding-top:55px; 
+	font-family: '游ゴシック Medium','メイリオ','MS ゴシック',sans-serif;
+	background-color: rgb(226, 230, 236);
+}
+p{
+	font-size: 1.15em;
 }
 section{
-	margin-top: 15px;
+	margin-top: 10px;
 }
-.global-nav{
-	position: fixed;
-	width: 100%;
-	top: 0;
-	z-index: 10000;
-}
-.navbar{
-	width: 100%;
-	display: block;
-    margin-left: auto;
-    margin-right: auto
-}
-.navbar-right{
-	margin-right: 25px;
-}
+/** フッター **/
 footer {
 	color:#003366;
 	font-weight:bold;
@@ -35,14 +26,57 @@ footer {
 	clear:both;
 	width: 100%;
 }
-p{
-	font-size: 1.15em;
+footer .container{
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
-.line123{
-	border-top:10px solid #003366;
+footer .jpdomain{
+	font-size: 0.85em;
+}
+footer .jpdomain a:link { color: #003366; }
+footer .jpdomain a:visited { color: #003366; }
+footer .jpdomain a:hover { color: #003366; }
+footer .jpdomain a:active { color: #003366; }
+/** ナビゲーションバー **/
+.global-nav{
+	position: fixed;
 	width: 100%;
+	top: 0;
+	z-index: 10000;
 }
+.navbar{
+	width: 100%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	padding-left: 20px;
+}
+.navbar-brand{
+	padding-left: 15px;
+	font-family: 'Yu Gothic';
+	font-size: 1.4em;
+	font-weight: bold;
+}
+.navbar-brand:hover {
+	text-decoration: none;
+}
+/** 画像 **/
 .img-section{
 	padding: 0 0 0 0;
 	margin: 0 0 0 0;
+}
+/** 画像下の線 **/
+.img_borderline{
+	border-top:10px solid #003366;
+	width: 100%;
+}
+.home1{
+	margin: 0 auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border:2px solid #003366;
+	width: 50%px;
+	background-color: rgb(248, 246, 246);
 }
