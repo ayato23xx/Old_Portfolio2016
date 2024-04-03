@@ -5,7 +5,7 @@
 body{
 	height:100%;
 	margin:0;
-	padding-top:55px; 
+	padding-top:55px;
 	font-family: '游ゴシック Medium','メイリオ','MS ゴシック',sans-serif;
 	background-color: rgb(226, 230, 236);
 }
@@ -70,13 +70,42 @@ footer .jpdomain a:active { color: #003366; }
 	border-top:10px solid #003366;
 	width: 100%;
 }
-.home1{
-	margin: 0 auto;
+.section_1{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.section_1_box{
 	padding-top: 10px;
 	padding-bottom: 10px;
 	padding-left: 10px;
 	padding-right: 10px;
 	border:2px solid #003366;
 	width: 50%px;
+	background-color: rgb(248, 246, 246);
+}
+.section_2{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.section_3{
+	margin-top: 10px;
+	margin-bottom: 25px;
+}
+.data_box{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border:2px solid #003366;
+	width: 100%;
+	text-align: center;
+	background-color: rgb(248, 246, 246);
+}
+.box_test1{
+	margin-top: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	border-radius :10px;
 	background-color: rgb(248, 246, 246);
 }
