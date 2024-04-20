@@ -5,17 +5,17 @@
 body{
 	height:100%;
 	margin:0;
-	/*padding-top:50px;*/ 
+	padding-top:55px;
+	font-family: '游ゴシック Medium','メイリオ','MS ゴシック',sans-serif;
+	background-color: rgb(226, 230, 236);
 }
-.navbar{
-	width: 100%;
-	display: block;
-    margin-left: auto;
-    margin-right: auto
+p{
+	font-size: 1.15em;
 }
-.navbar-right{
-	margin-right: 25px;
+section{
+	margin-top: 10px;
 }
+/** フッター **/
 footer {
 	color:#003366;
 	font-weight:bold;
@@ -26,30 +26,86 @@ footer {
 	clear:both;
 	width: 100%;
 }
-p{
-	font-size: 1.15em;
+footer .container{
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
-#Home{
-	margin-top: 15px;
+footer .jpdomain{
+	font-size: 0.85em;
 }
-.flex{
-	display: flex;
-	border: 1px solid #333;
+footer .jpdomain a:link { color: #003366; }
+footer .jpdomain a:visited { color: #003366; }
+footer .jpdomain a:hover { color: #003366; }
+footer .jpdomain a:active { color: #003366; }
+/** ナビゲーションバー **/
+.global-nav{
+	position: fixed;
+	width: 100%;
+	top: 0;
+	z-index: 10000;
 }
-.flex div{
-    border: 1px solid #333;
-	width: 350px;
+.navbar{
+	width: 100%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	padding-left: 20px;
 }
-.name_title{
-	font-size: 25px;
-	font-weight:bold;
+.navbar-brand{
+	padding-left: 15px;
+	font-family: 'Yu Gothic';
+	font-size: 1.4em;
+	font-weight: bold;
 }
-.bg_color1{
-	padding-bottom: 60px;
-	background-color: #DCF7FC;
-} 
-.product_box{
-	border: 1px solid #333;
-	padding: 5px 5px 5px 5px;
-	margin-bottom: 20px;
+.navbar-brand:hover {
+	text-decoration: none;
+}
+/** 画像 **/
+.img-section{
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+}
+/** 画像下の線 **/
+.img_borderline{
+	border-top:10px solid #003366;
+	width: 100%;
+}
+.section_1{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.section_1_box{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border:2px solid #003366;
+	width: 50%px;
+	background-color: rgb(248, 246, 246);
+}
+.section_2{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.section_3{
+	margin-top: 10px;
+	margin-bottom: 25px;
+}
+.data_box{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border:2px solid #003366;
+	width: 100%;
+	text-align: center;
+	background-color: rgb(248, 246, 246);
+}
+.box_test1{
+	margin-top: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	border-radius :10px;
+	background-color: rgb(248, 246, 246);
 }

@@ -13,8 +13,9 @@
 	
 	* {
 		-webkit-print-color-adjust: exact;
+		-rint-color-adjust: exact;
         font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", "sans-serif";
-		/*-webkit-print-color-adjust: exact !important;*/
+		-webkit-print-color-adjust: exact !important;
 		background-attachment: initial;
 		background-color: transparent;
 		/*overflow-y: visible !important;*/
@@ -29,6 +30,9 @@
 		min-width: 1240px !important;
 		padding-top: 0px !important;
 		padding-bottom: 0px !important;
+	}
+	.background-image{
+		-webkit-print-color-adjust: exact;
 	}
 	.container-fluid,
 	.container {
